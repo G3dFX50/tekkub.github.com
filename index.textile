@@ -1,14 +1,17 @@
 ---
+layout: default
 title: Tekkub's Emporium of Random Crap
 subtitle: World of Warcraft addons and various ramblings of a furry bastard
 ---
 
-h2. Title here
+h2. {{ page.title }}
 
-h3. Subtitle here
+h3. {{ page.subtitle }}
 
 <div class="insidebar">
+
 h3. Quick links
+
 * "WoW Interface (Releases)":http://www.wowinterface.com/downloads/index.php?cid=37
 * "Github repos (Alphas)":http://github.com/tekkub
 * "Issue Tracker":http://code.google.com/p/tekkub-wow/issues/list
