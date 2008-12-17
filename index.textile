@@ -8,6 +8,7 @@ addons:
   - name: Kennel
   - name: TourGuide
     description: Powerleveling guide framework
+    pledgie: 767
 ---
 
 <div class="sidebar">
@@ -45,6 +46,11 @@ h2. Addons
     <tr>
       <td> {{ addon.name }} </td>
       <td> {{ addon.description }} </td>
+      <td>
+        {% if addon.pledgie %}
+          "donate":http://pledgie.org/campaigns/{{ addon.pledgie }}
+        {% end %}
+      </td>
     </tr>
   {% endfor %}
 </table>
