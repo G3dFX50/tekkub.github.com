@@ -15,36 +15,18 @@
   <body>
     <div id="header">
       <h1> {{ page.title }} </h1>
-      <div id="description">
-        <p> {{ page.subtitle }} </p>
-        <div id="tabbar">
-          <a href="/"> Home </a>
-        </div>
+      <h2> {{ page.subtitle }} </h2>
+      <div id="navbar">
+        <a href="/"> Home </a>
       </div>
     </div>
 
     <div id="main-content">
-      <div class="wrapper">
-        <div class="content-item">
-          <div id="g_body">
-            {{ content }}
-          </div>
-        </div>
-        <div style="clear: both;"></div>
-      </div>
+      {{ content }}
     </div>
 
     <div id="footer">
-      <div class="wrapper">
-        <hr>
-        <p></p>
-        <div id="g_footer">
-          <p>
-            &nbsp;
-          </p>
-        </div>
-        <div style="clear: both;"></div>
-      </div>
+      <p>&nbsp;</p>
     </div>
 
     <script type="text/javascript">

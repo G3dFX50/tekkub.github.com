@@ -4,11 +4,7 @@ title: Tekkub's Emporium of Random Crap
 subtitle: World of Warcraft addons and various ramblings of a furry bastard
 ---
 
-h2. {{ page.title }}
-
-h3. {{ page.subtitle }}
-
-<div class="insidebar">
+<div class="sidebar">
 
 h3. Quick links
 
@@ -16,6 +12,7 @@ h3. Quick links
 * "Github repos (Alphas)":http://github.com/tekkub
 * "Issue Tracker":http://code.google.com/p/tekkub-wow/issues/list
 * "Tour Guide":addons/TourGuide
+
 </div>
 
 Welcome to my crappy website.  I'm lazy, so you may not see many improvements to this base page.  Anywho, the good shit's below.
