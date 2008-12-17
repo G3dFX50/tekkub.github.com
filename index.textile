@@ -4,9 +4,9 @@ title: Tekkub's Emporium of Random Crap
 subtitle: World of Warcraft addons and various ramblings of a furry bastard
 
 addons:
-  - Buffet
-  - Kennel
-  - TourGuide
+  - name: Buffet
+  - name: Kennel
+  - name: TourGuide
 ---
 
 <div class="sidebar">
@@ -40,10 +40,10 @@ The web-based guides will be updated whenever a new version of the addon is rele
 h2. Addons
 
 <table id="addon_list">
-  {% for addon in addons %}
+  {% for addon in page.addons %}
     <tr>
       <td>
-        {{ addon }}
+        {{ addon.name }}
       </td>
     </tr>
   {% endfor %}
