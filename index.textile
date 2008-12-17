@@ -19,7 +19,7 @@ h3. Quick links
 * "WoW Interface (Releases)":http://www.wowinterface.com/downloads/index.php?cid=37
 * "Github repos (Alphas)":http://github.com/tekkub
 * "Issue Tracker":http://code.google.com/p/tekkub-wow/issues/list
-* "Tour Guide":addons/TourGuide
+* "Tour Guide":http://www.wowinterface.com/downloads/fileinfo.php?id=7674
 
 </div>
 
