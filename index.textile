@@ -28,10 +28,8 @@ Welcome to my crappy website.  I'm lazy, so you may not see many improvements to
 For lots more goodies that I haven't got on this site yet, visit <a href="http://www.wowinterface.com/downloads/index.php?cid=37">My WoWInterface section</a>.
 
 You can also find all sorts of little unreleased mods in my <a href="http://github.com/tekkub">git repos</a>.
-<div class="wrapper">
-<i><b>Important note:</b> addons pulled from git are <b>alpha quality</b> and are not supported, they could completely screw up your game...
-but I strive for that not to happen, of course.  USE AT YOUR OWN RISK!</i>
-</div>
+
+p(. _*Important note:* addons pulled from git are *alpha quality* and are not supported, they could completely screw up your game... but I strive for that not to happen, of course.  USE AT YOUR OWN RISK!_
 
 h2. New! "TourGuide Online":/tg
 
