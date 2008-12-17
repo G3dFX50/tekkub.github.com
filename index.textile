@@ -2,6 +2,11 @@
 layout: default
 title: Tekkub's Emporium of Random Crap
 subtitle: World of Warcraft addons and various ramblings of a furry bastard
+
+addons:
+  - Buffet
+  - Kennel
+  - TourGuide
 ---
 
 <div class="sidebar">
@@ -30,3 +35,16 @@ h2. New! "TourGuide Online":/tg
 All the guides included with the released version of TourGuide are now "viewable online":/tg.  Print them out!  Show your friends!  And of course, install the "addon":/addons/TourGuide!
 
 The web-based guides will be updated whenever a new version of the addon is released.
+
+
+h2. Addons
+
+<table id="addon_list">
+  {% for addon in addons %}
+    <tr>
+      <td>
+        {{ addon }}
+      </td>
+    </tr>
+  {% endfor %}
+</table>
