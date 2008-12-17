@@ -47,13 +47,10 @@ h2. Addons
       <td> {{ addon.name }} </td>
       <td> {{ addon.description }} </td>
       <td>
-        {% if addon.pledgie != null %}
+        {% if addon.pledgie %}
           "donate":http://pledgie.org/campaigns/{{ addon.pledgie }}
-        {% end %}
+        {% endif %}
       </td>
-      <td> {{ addon.wowi }} </td>
-      <td> {{ addon.issue_tracker }} </td>
-      <td> {{ addon.github_repo }} </td>
     </tr>
   {% endfor %}
 </table>
