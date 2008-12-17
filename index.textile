@@ -7,6 +7,7 @@ addons:
   - name: Buffet
   - name: Kennel
   - name: TourGuide
+    description: Powerleveling guide framework
 ---
 
 <div class="sidebar">
@@ -42,9 +43,8 @@ h2. Addons
 <table id="addon_list">
   {% for addon in page.addons %}
     <tr>
-      <td>
-        {{ addon.name }}
-      </td>
+      <td> {{ addon.name }} </td>
+      <td> {{ addon.description }} </td>
     </tr>
   {% endfor %}
 </table>
