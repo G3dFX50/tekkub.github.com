@@ -41,7 +41,7 @@ The web-based guides will be updated whenever a new version of the addon is rele
 
 h2. Addons
 
-table{#"addon_list"}
+table{#"addon_list"}.
 {% for addon in page.addons %}
 | {{ addon.name }} | {{ addon.description }} | {% if addon.pledgie %} "donate":http://pledgie.org/campaigns/{{ addon.pledgie }} {% endif %} |
 {% endfor %}
