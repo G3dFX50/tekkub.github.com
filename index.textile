@@ -9,6 +9,7 @@ addons:
   - name: TourGuide
     description: Powerleveling guide framework
     pledgie: 767
+    wowi: 7674
 ---
 
 <div class="sidebar">
@@ -41,7 +42,23 @@ The web-based guides will be updated whenever a new version of the addon is rele
 
 h2. Addons
 
-table{#"addon_list"}.
-{% for addon in page.addons %}
-| {{ addon.name }} | {{ addon.description }} | {% if addon.pledgie %} "donate":http://pledgie.org/campaigns/{{ addon.pledgie }} {% endif %} |
-{% endfor %}
+<table id="addon_list">
+  {% for addon in page.addons %}
+    <tr>
+      <td> {{ addon.name }} </td>
+      <td> {{ addon.description }} </td>
+      <td>
+        {% if addon.pledgie %}
+          "Donate":http://pledgie.org/campaigns/{{ addon.pledgie }}
+        {% endif %}
+      </td>
+      <td>
+        {% if addon.wowi %}
+          "WoWI":http://www.wowinterface.com/downloads/fileinfo.php?id={{ addon.wowi }}
+        {% endif %}
+      </td>
+      <td> "Bugs":http://code.google.com/p/tekkub-wow/issues/list?can=1&q=addon:{{ addon.name }}&sort=status+milestone&colspec=ID%20Type%20Status%20Addon%20Milestone%20Summary </td>
+      <td> "Repo":http://github.com/tekkub/{{ addon.name | downcase }} </td>
+    </tr>
+  {% endfor %}
+</table>
