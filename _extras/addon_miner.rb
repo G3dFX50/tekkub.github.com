@@ -19,12 +19,12 @@ def get_wowi_id(name)
 end
 
 
-
+blacklist = ["addonloader", "ouf"]
 data = []
 Net::HTTP.start("github.com") do |http|
   res = http.get("/api/v1/json/tekkub")
   data = JSON.parse(res.body)["user"]["repositories"]
-  data.reject! {|r| r["description"].empty? || !(r["description"] =~ /\AWoW Addon - /)}
+  data.reject! {|r| blacklist.include?(r["name"]) || r["description"].empty? || !(r["description"] =~ /\AWoW Addon - /)}
   data.sort! {|a,b| a["name"] <=> b["name"]}
   data.map! {|r| {"name" => r["name"], "description" => r["description"].gsub(/\AWoW Addon - /, ""), "pledgie" => r["pledgie"]}}
 
