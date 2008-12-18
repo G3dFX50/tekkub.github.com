@@ -35,7 +35,7 @@ For lots more goodies that I haven't got on this site yet, visit "My WoWInterfac
 
 You can also find all sorts of little unreleased mods in my "git repos":{{ page.links.github }}.
 
-p(. _*Important note:* addons pulled from git are *alpha quality* and are not supported, they could completely screw up your game... but I strive for that not to happen, of course.  USE AT YOUR OWN RISK!_
+p(. <i>*Important note:* addons pulled from git are *alpha quality* and are not supported, they could completely screw up your game... but I strive for that not to happen, of course.  USE AT YOUR OWN RISK!</i>
 
 h2. New! "TourGuide Online":{{ page.links.tourguide_online }}
 
