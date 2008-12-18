@@ -13,27 +13,29 @@
   </head>
 
   <body>
-    <div id="header">
-      <h1> {{ page.title }} </h1>
-      <h2> {{ page.subtitle }} </h2>
-    </div>
+    <div id="container">
+      <div id="header">
+        <h1> {{ page.title }} </h1>
+        <h2> {{ page.subtitle }} </h2>
+      </div>
 
-    <div id="main-content">
-      {{ content }}
-    </div>
+      <div id="main-content">
+        {{ content }}
+      </div>
 
-    <div id="footer">
-      <p>&nbsp;</p>
-    </div>
+      <div id="footer">
+        <p>&nbsp;</p>
+      </div>
 
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      var pageTracker = _gat._getTracker("UA-3366004-1");
-      pageTracker._initData();
-      pageTracker._trackPageview();
-    </script>
+      <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-3366004-1");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+      </script>
+    </div>
   </body>
 </html>
