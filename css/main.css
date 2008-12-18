@@ -66,6 +66,26 @@ ul li {
 	margin-bottom: 0.8em;
 	list-style: url(images/h5.gif);
 }
+td {
+	line-height: 1.5;
+	padding: 2px 5px;
+	vertical-align: top;
+}
+th {
+	font-size: 1em;
+	padding: 2px 5px;
+	text-align: left;
+	border-top: solid 1px #000;
+	border-right: solid 1px #000;
+	border-bottom: solid 1px #000;
+	color: #fff;
+	background: #526D78 url(images/th.gif) repeat;
+	border-color: #758A93;
+}
+td p {
+	line-height: 1.5;
+	margin-top: 0;
+}
 
 
 /*******************/
@@ -151,3 +171,26 @@ a:hover {background-color: #506666;}
 .sidebar ul {padding-left: 40px;}
 
 .sidebar ul li {padding-right: 20px;}
+
+
+/*************************/
+/*      Addon Table      */
+/*************************/
+
+#addon_list {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#addon_list td {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	letter-spacing: 0.2em;
+	font-size: 0.9em;
+	color: #B4D0DD;
+	border-bottom: dotted 1px #3E4D53;
+}
+
+#addon_list td a.title{color: #74909D;}
+
+#addon_list td a.title:hover{background: black;}
