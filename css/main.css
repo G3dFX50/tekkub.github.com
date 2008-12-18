@@ -212,3 +212,20 @@ a:hover {background-color: #506666;}
 #addon_list td a.title{color: #74909D;}
 
 #addon_list td a.title:hover{background: black;}
+
+
+/********************/
+/*      Footer      */
+/********************/
+
+#footer {
+	padding: 1px 15px;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+	clear: both;
+	color: #133;
+	background: #7B95A1 url(images/h1.gif) repeat-x left bottom;
+	border-top-color: #91A7AF;
+	border-bottom-color: #7597A5;
+	text-align: right;
+}
