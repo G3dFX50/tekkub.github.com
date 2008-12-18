@@ -249,7 +249,14 @@ h2. Addons
 <table id="addon_list">
   {% for addon in page.addons %}
     <tr>
-      <td> {{ addon.name }} </td>
+      <td>
+        {% if addon.wowi %}
+          "{{ addon.name }}":http://www.wowinterface.com/downloads/fileinfo.php?id={{ addon.wowi }}
+        {% endif %}
+        {% if addon.wowi == null %}
+          {{ addon.name }}
+        {% endif %}
+        </td>
       <td> {{ addon.description }} </td>
       <td class="right-text">
         {% if addon.pledgie %}
