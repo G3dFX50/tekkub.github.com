@@ -45,7 +45,7 @@ h2. Addons
     <tr>
       <td> {{ addon.name }} </td>
       <td> {{ addon.description }} </td>
-      <td>
+      <td class="right-text">
         {% if addon.pledgie %}
           "Donate":http://pledgie.org/campaigns/{{ addon.pledgie }}
         {% endif %}
