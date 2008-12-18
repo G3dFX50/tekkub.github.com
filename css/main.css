@@ -68,6 +68,10 @@ a {
 a:hover {background-color: #506666;}
 
 
+/********************/
+/*      Header      */
+/********************/
+
 #header {
 	width:90%;
 	border-bottom: solid 1px #18252A;
@@ -80,4 +84,19 @@ a:hover {background-color: #506666;}
 #header h2 {
 	margin: 1em 0 1em 15px;
 	text-align: center;
+}
+
+
+/**************************/
+/*      Main content      */
+/**************************/
+
+#main-content {
+	width:90%;
+	background: url(images/container-bg.gif) repeat-x;
+	margin: auto;
+	margin-top: 13px;
+/*	margin-bottom: 13px;*/
+	padding: 0 20px;
+	margin-bottom: 2.5em;
 }
