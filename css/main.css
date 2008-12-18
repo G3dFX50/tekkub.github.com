@@ -50,9 +50,21 @@ h1 {
 	color: #fff;
 	background: #7B95A1 url(images/h1.gif) repeat-x left bottom;
 }
+h3 {
+	font-size: 1.2em;
+	padding: 4px 10px;
+	margin-top: 0.5em;
+	color: #fff;
+	background: #222729 url(images/h3.gif) repeat-x;
+}
 p {
 	margin: 1em 0;
 	line-height: 1.5;
+}
+ul li {
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+	list-style: url(images/h5.gif);
 }
 
 
@@ -105,3 +117,37 @@ a:hover {background-color: #506666;}
 	padding: 0 20px;
 	margin-bottom: 2.5em;
 }
+
+
+/*********************/
+/*      Sidebar      */
+/*********************/
+
+.sidebar {
+	float: right;
+	clear: right;
+	width: 230px;
+	margin-bottom: 2em;
+	background: url(images/sidebar.gif) repeat-x 0 0;
+}
+
+.sidebar h3 {
+	font-weight: normal;
+	font-size: 1.3em;
+	border-top: solid 1px #000;
+	color: #536D79;
+	background: #1A2125 url(images/sidebar-h3.gif) repeat-x left bottom;
+	border-top-color: #0D1114;
+	margin-bottom: 0.5em;
+}
+
+.sidebar p {
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.sidebar li {margin-bottom: 0.8em;}
+
+.sidebar ul {padding-left: 40px;}
+
+.sidebar ul li {padding-right: 20px;}
