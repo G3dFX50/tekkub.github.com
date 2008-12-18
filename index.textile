@@ -262,9 +262,6 @@ h2. Addons
         {% if addon.pledgie %}
           "Donate":http://pledgie.org/campaigns/{{ addon.pledgie }}
         {% endif %}
-        {% if addon.wowi %}
-          "WoWI":http://www.wowinterface.com/downloads/fileinfo.php?id={{ addon.wowi }}
-        {% endif %}
         "Bugs":http://code.google.com/p/tekkub-wow/issues/list?can=1&q=addon:{{ addon.name }}&sort=status+milestone&colspec=ID%20Type%20Status%20Addon%20Milestone%20Summary
         "Repo":{{ page.links.github }}/{{ addon.name | downcase }}
       </td>
