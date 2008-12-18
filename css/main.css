@@ -67,9 +67,13 @@ a:hover {background-color: #506666;}
 #header {
 	width:90%;
 	border-bottom: solid 1px #18252A;
-/*	position: relative;*/
 	margin: auto;
 	margin-top: 13px;
 	margin-bottom: 10px;
 	background: #000;
+}
+
+#header h2 {
+	margin: 1em 0 1em 15px;
+	text-align: center;
 }
