@@ -10,12 +10,238 @@ links:
   github: http://github.com/tekkub
 
 addons:
-  - name: Buffet
-  - name: Kennel
-  - name: TourGuide
-    description: Powerleveling guide framework
-    pledgie: 767
-    wowi: 7674
+- name: addonaddoff
+  url: http://github.com/tekkub/addonaddoff
+  description: Simple OptionHouse-based addon profile manager
+  pledgie: 1542
+- name: addonloader
+  url: http://github.com/tekkub/addonloader
+  description: My fork of Ace's AddonLoader... cause I'm not willing to install an SVN client :)
+  pledgie:
+- name: ampere
+  url: http://github.com/tekkub/ampere
+  description: Addon Management Panel
+  pledgie: 762
+- name: areyouthreateningme
+  url: http://github.com/tekkub/areyouthreateningme
+  description: I need picata for my bunghole!
+  pledgie:
+- name: blipstick
+  url: http://github.com/tekkub/blipstick
+  description: Better minimap blips
+  pledgie: 775
+- name: buffet
+  url: http://github.com/tekkub/buffet
+  description: Food/water macro generator
+  pledgie: 774
+- name: controlfreak
+  url: http://github.com/tekkub/controlfreak
+  description: Crowd control assistance
+  pledgie: 765
+- name: cork
+  url: http://github.com/tekkub/cork
+  description: Generic reminder framework
+  pledgie: 764
+- name: daytrader
+  url: http://github.com/tekkub/daytrader
+  description: Fast alt-click item trading
+  pledgie: 1488
+- name: engravings
+  url: http://github.com/tekkub/engravings
+  description: Adds notes to item tooltips
+  pledgie: 766
+- name: forsalebyowner
+  url: http://github.com/tekkub/forsalebyowner
+  description: Addon to sum all posted auctions for Bid and Buyout price and integrate into Auction Frame
+  pledgie: 2306
+- name: friendswithbenefits
+  url: http://github.com/tekkub/friendswithbenefits
+  description: Syncs your friend list
+  pledgie: 1489
+- name: fuzzylogic
+  url: http://github.com/tekkub/fuzzylogic
+  description: Hunter pet macro thing
+  pledgie: 1089
+- name: hattrick
+  url: http://github.com/tekkub/hattrick
+  description: Simple cloak/helm checkboxes in the Character frame
+  pledgie: 1521
+- name: instantiation
+  url: http://github.com/tekkub/instantiation
+  description: Instance maps
+  pledgie:
+- name: kennel
+  url: http://github.com/tekkub/kennel
+  description: Swap a random minipet every time you visit the bank
+  pledgie: 929
+- name: makerocketgonow
+  url: http://github.com/tekkub/makerocketgonow
+  description: LDB-based quicklaunch menu
+  pledgie: 1319
+- name: mountme
+  url: http://github.com/tekkub/mountme
+  description: Handles all your mount & travel-form needs
+  pledgie: 772
+- name: nudist
+  url: http://github.com/tekkub/nudist
+  description: Sometimes you just want to run around nekkid
+  pledgie: 1491
+- name: nutcounter
+  url: http://github.com/tekkub/nutcounter
+  description: 1, 2... 3?
+  pledgie: 2008
+- name: ouf
+  url: http://github.com/tekkub/ouf
+  description: My fork of oUF for wrath
+  pledgie:
+- name: ouf_tek
+  url: http://github.com/tekkub/ouf_tek
+  description: My oUF layout
+  pledgie: 1679
+- name: panda
+  url: http://github.com/tekkub/panda
+  description: Prospecting and Disenchanting Aide
+  pledgie: 773
+- name: pandatags
+  url: http://github.com/tekkub/pandatags
+  description: DE, prospecting and milling price estimates
+  pledgie: 2056
+- name: picobuttons
+  url: http://github.com/tekkub/picobuttons
+  description: LDB launcher micro buttons
+  pledgie: 1320
+- name: picodps
+  url: http://github.com/tekkub/picodps
+  description: A DPS Data Broker plugin
+  pledgie: 1392
+- name: picoexp
+  url: http://github.com/tekkub/picoexp
+  description: LDB EXP data feed
+  pledgie: 1444
+- name: picofps
+  url: http://github.com/tekkub/picofps
+  description: LDB FPS data feed
+  pledgie: 1234
+- name: picofriends
+  url: http://github.com/tekkub/picofriends
+  description: LDB friends data feed
+  pledgie: 1233
+- name: picogroup
+  url: http://github.com/tekkub/picogroup
+  description: Minimalistic LibDataBroker-based group information
+  pledgie: 1596
+- name: picoguild
+  url: http://github.com/tekkub/picoguild
+  description: LDB Guild data feed
+  pledgie: 1232
+- name: quecho
+  url: http://github.com/tekkub/quecho
+  description: Echos quest objective completion to your party
+  pledgie: 841
+- name: quelevel
+  url: http://github.com/tekkub/quelevel
+  description: Adds quest level tags to log and watcher
+  pledgie: 1511
+- name: quickie
+  url: http://github.com/tekkub/quickie
+  description: Addon quicklaunch bar
+  pledgie:
+- name: rawr
+  url: http://github.com/tekkub/rawr
+  description: Enable /roar sounds for every race
+  pledgie: 1603
+- name: sealclubber
+  url: http://github.com/tekkub/sealclubber
+  description: Fast pally seal swapping
+  pledgie: 2018
+- name: spew
+  url: http://github.com/tekkub/spew
+  description: Spews out lua
+  pledgie: 1466
+- name: squeenix
+  url: http://github.com/tekkub/squeenix
+  description: Square Minimap and more
+  pledgie: 1440
+- name: stealyourcarbon
+  url: http://github.com/tekkub/stealyourcarbon
+  description: Automatically restock items from vendors and your bank
+  pledgie: 771
+- name: tekability
+  url: http://github.com/tekkub/tekability
+  description: Durability display
+  pledgie: 1238
+- name: tekaccept
+  url: http://github.com/tekkub/tekaccept
+  description: Auto-accept invites from guild members and friends
+  pledgie:
+- name: tekauc
+  url: http://github.com/tekkub/tekauc
+  description: Simple auction price manager
+  pledgie: 1633
+- name: tekautonameplates
+  url: http://github.com/tekkub/tekautonameplates
+  description: Automatically toggles nameplates when entering / leaving combat.
+  pledgie: 1597
+- name: tekbattlemapenhancer
+  url: http://github.com/tekkub/tekbattlemapenhancer
+  description: Makes the battle map better!
+  pledgie: 1955
+- name: tekblocks
+  url: http://github.com/tekkub/tekblocks
+  description: My own little LDB display
+  pledgie:
+- name: tekdebug
+  url: http://github.com/tekkub/tekdebug
+  description: Debug output frame thing
+  pledgie: 1324
+- name: tekerr
+  url: http://github.com/tekkub/tekerr
+  description: Lua error manager
+  pledgie: 1439
+- name: tekjunkseller
+  url: http://github.com/tekkub/tekjunkseller
+  description: Automatically vendor off grey items
+  pledgie: 1524
+- name: tekkompare
+  url: http://github.com/tekkub/tekkompare
+  description: Simple item compare tooltips
+  pledgie: 1490
+- name: teklayout
+  url: http://github.com/tekkub/teklayout
+  description: My personal WorldFrame/ChatFrame layout
+  pledgie:
+- name: tekmapenhancer
+  url: http://github.com/tekkub/tekmapenhancer
+  description: Fulscreen map sucks!
+  pledgie: 2006
+- name: teknicolor
+  url: http://github.com/tekkub/teknicolor
+  description: Color player names in chat by their corresponding raid class colors
+  pledgie: 1008
+- name: tekpad
+  url: http://github.com/tekkub/tekpad
+  description: Lua notepad thing
+  pledgie: 1523
+- name: tekplayermenu
+  url: http://github.com/tekkub/tekplayermenu
+  description: Add extra options to player link menu
+  pledgie: 1543
+- name: teksloot
+  url: http://github.com/tekkub/teksloot
+  description: Minimalistic group roll frames.
+  pledgie: 769
+- name: tekticles
+  url: http://github.com/tekkub/tekticles
+  description: Simple font replacement
+  pledgie: 768
+- name: tourguide_recorder
+  url: http://github.com/tekkub/tourguide_recorder
+  description: TourGuide guide making helper
+  pledgie: 1514
+- name: vendorbait
+  url: http://github.com/tekkub/vendorbait
+  description: Highlight the best quest reward choice for selling to vendor
+  pledgie: 1598
 ---
 
 <div class="sidebar">
