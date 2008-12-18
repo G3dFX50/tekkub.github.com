@@ -50,6 +50,10 @@ h1 {
 	color: #fff;
 	background: #7B95A1 url(images/h1.gif) repeat-x left bottom;
 }
+p {
+	margin: 1em 0;
+	line-height: 1.5;
+}
 
 
 /*******************/
