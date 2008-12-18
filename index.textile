@@ -209,6 +209,10 @@ addons:
   wowi: "8786"
   description: Simple font replacement
   pledgie: 768
+- name: TourGuide
+  wowi: "7674"
+  description: Powerleveling guide framework
+  pledgie: 767
 - name: TourGuide_Recorder
   wowi: "10499"
   description: TourGuide guide making helper
@@ -217,6 +221,7 @@ addons:
   wowi: "7121"
   description: Highlight the best quest reward choice for selling to vendor
   pledgie: 1598
+
 ---
 
 <div class="sidebar">
