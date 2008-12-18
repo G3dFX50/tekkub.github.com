@@ -50,6 +50,13 @@ h1 {
 	color: #fff;
 	background: #7B95A1 url(images/h1.gif) repeat-x left bottom;
 }
+h2 {
+	font-weight: normal;
+	font-size: 1.5em;
+	margin: 1.75em 0 1em 0;
+	color: #8298A1;
+	background: url(images/h2.gif) no-repeat left bottom;
+}
 h3 {
 	font-size: 1.2em;
 	padding: 4px 10px;
@@ -86,6 +93,7 @@ td p {
 	line-height: 1.5;
 	margin-top: 0;
 }
+h2 a {color: #B4D0DD;}
 
 
 /**************************/
@@ -132,6 +140,7 @@ a:hover {background-color: #506666;}
 #header h2 {
 	margin: 1em 0 1em 15px;
 	text-align: center;
+	background: none;
 }
 
 

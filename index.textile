@@ -25,7 +25,7 @@ h3. Quick links
 * "WoW Interface [Releases]":{{ page.links.wowi }}
 * "Github repos [Alphas]":{{ page.links.github }}
 * "Issue Tracker":http://code.google.com/p/tekkub-wow/issues/list
-* "Tour Guide":{{ page.links.tourguide }}
+* "TourGuide":{{ page.links.tourguide }}
 
 </div>
 
