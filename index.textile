@@ -3,6 +3,12 @@ layout: default
 title: Tekkub's Emporium of Random Crap
 subtitle: World of Warcraft addons and various ramblings of a furry bastard
 
+links:
+  tourguide: http://www.wowinterface.com/downloads/fileinfo.php?id=7674
+  tourguide_online: http://tekkub.net/tg
+  wowi: http://www.wowinterface.com/downloads/index.php?cid=37
+  github: http://github.com/tekkub
+
 addons:
   - name: Buffet
   - name: Kennel
@@ -16,34 +22,33 @@ addons:
 
 h3. Quick links
 
-* "WoW Interface (Releases)":http://www.wowinterface.com/downloads/index.php?cid=37
-* "Github repos (Alphas)":http://github.com/tekkub
+* "WoW Interface [Releases]":{{ page.links.wowi }}
+* "Github repos [Alphas]":{{ page.links.github }}
 * "Issue Tracker":http://code.google.com/p/tekkub-wow/issues/list
-* "Tour Guide":http://www.wowinterface.com/downloads/fileinfo.php?id=7674
+* "Tour Guide":{{ page.links.tourguide }}
 
 </div>
 
 Welcome to my crappy website.  I'm lazy, so you may not see many improvements to this base page.  Anywho, the good shit's below.
 
-For lots more goodies that I haven't got on this site yet, visit <a href="http://www.wowinterface.com/downloads/index.php?cid=37">My WoWInterface section</a>.
+For lots more goodies that I haven't got on this site yet, visit "My WoWInterface section":{{ page.links.wowi }}.
 
-You can also find all sorts of little unreleased mods in my <a href="http://github.com/tekkub">git repos</a>.
+You can also find all sorts of little unreleased mods in my "git repos":{{ page.links.github }}.
 
 p(. _*Important note:* addons pulled from git are *alpha quality* and are not supported, they could completely screw up your game... but I strive for that not to happen, of course.  USE AT YOUR OWN RISK!_
 
-h2. New! "TourGuide Online":/tg
+h2. New! "TourGuide Online":{{ page.links.tourguide_online }}
 
-All the guides included with the released version of TourGuide are now "viewable online":/tg.  Print them out!  Show your friends!  And of course, install the "addon":/addons/TourGuide!
+All the guides included with the released version of TourGuide are now "viewable online":{{ page.links.tourguide_online }}.  Print them out!  Show your friends!  And of course, install the "addon":{{ page.links.tourguide }}!
 
 The web-based guides will be updated whenever a new version of the addon is released.
-
 
 h2. Addons
 
 <table id="addon_list">
   {% for addon in page.addons %}
     <tr>
-      <td> {{ addon.name }} </td>
+      <td> *{{ addon.name }}* </td>
       <td> {{ addon.description }} </td>
       <td class="right-text">
         {% if addon.pledgie %}
@@ -53,7 +58,7 @@ h2. Addons
           "WoWI":http://www.wowinterface.com/downloads/fileinfo.php?id={{ addon.wowi }}
         {% endif %}
         "Bugs":http://code.google.com/p/tekkub-wow/issues/list?can=1&q=addon:{{ addon.name }}&sort=status+milestone&colspec=ID%20Type%20Status%20Addon%20Milestone%20Summary
-        "Repo":http://github.com/tekkub/{{ addon.name | downcase }}
+        "Repo":{{ page.links.github }}/{{ addon.name | downcase }}
       </td>
     </tr>
   {% endfor %}
