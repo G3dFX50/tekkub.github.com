@@ -99,7 +99,6 @@ a:hover {background-color: #506666;}
 #header {
 	border-bottom: solid 1px #18252A;
 	margin-top: 13px;
-	margin-bottom: 10px;
 	background: #000;
 }
 
@@ -114,8 +113,8 @@ a:hover {background-color: #506666;}
 /**************************/
 
 #main-content {
-	padding: 0 20px;
-	margin-bottom: 2.5em;
+	margin: 20px;
+	/*margin-bottom: 2.5em;*/
 }
 
 
@@ -128,6 +127,7 @@ a:hover {background-color: #506666;}
 	clear: right;
 	width: 230px;
 	margin-bottom: 2em;
+	margin-left: 20px;
 	background: url(images/sidebar.gif) repeat-x 0 0;
 }
 
