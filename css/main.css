@@ -23,3 +23,28 @@ table, td, th {vertical-align: middle;}
 blockquote:before, blockquote:after, q:before, q:after {content: "";}
 blockquote, q {quotes: "" "";}
 a img {border: none;}
+
+
+/*******************************/
+/*      Main color scheme      */
+/*******************************/
+
+body {
+	font: 80% "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	color: #fff;
+	background: #151515 url(images/body-bg.gif) repeat-x;
+}
+
+h1,h2,h3,h4,h5,h6 {font-family: "Trebuchet MS", arial, sans-serif;}
+
+
+/*******************/
+/*      Links      */
+/*******************/
+
+a {
+	text-decoration: none;
+	border-bottom: 1px #ABB solid;
+	color: #FFF
+}
+a:hover {background-color: #506666;}
