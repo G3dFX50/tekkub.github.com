@@ -274,7 +274,7 @@ h2. Addons
 <table id="addon_list">
   {% for addon in page.addons %}
     <tr>
-      <td> *{{ addon.name }}* </td>
+      <td> {{ addon.name }} </td>
       <td> {{ addon.description }} </td>
       <td class="right-text">
         {% if addon.pledgie %}
