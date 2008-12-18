@@ -189,6 +189,8 @@ a:hover {background-color: #506666;}
 	border-collapse: collapse;
 }
 
+#addon_list tr:hover {background: #1A2125;}
+
 #addon_list td {
 	padding-top: 3px;
 	padding-bottom: 3px;
