@@ -1,0 +1,121 @@
+
+.print_header, .print_footer {display: none;}
+
+body {
+	color: #fff;
+	background: #151515 url(body-bg.gif) repeat-x;
+}
+
+a, h1, h2, h3, h4 {color: #ddd;}
+
+h1 img {
+	float:left;
+	margin-top: 3px;
+	margin-right: 7px;
+}
+
+.sidebar {
+	float: left;
+	width: 270px;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.sidebar div {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #666;
+}
+
+.sidebar div img {
+	float: none;
+	margin: 0px;
+}
+
+.float_right {float: right;}
+
+.index_list {
+	float: left;
+	width: 290px;
+	margin-left: 0;
+	margin-right: 25px;
+	padding-right: 24px;
+	border-right: 1px solid #666;
+}
+
+.objectives {
+	float: left;
+	width: 610px;
+	margin-left: 0;
+	margin-right: 25px;
+	padding-left: 20px;
+	padding-right: 24px;
+	border-right: 1px solid #666;
+}
+
+.objectives li {
+	display: block;
+	padding: 10px 10px;
+	margin-bottom: 5px;
+	background: #556;
+	list-style: none;
+}
+
+.objectives li:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.objectives li {display: inline-block;}
+.objectives li {display: block;}
+
+.icon {
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	border: none;
+}
+
+.quest_detail {
+	float: left;
+	width: 548px;
+}
+
+.quest_detail a {
+	float: right;
+	margin-left: 4px;
+}
+
+.quest_detail a img {
+	width: 24px;
+	height: 24px;
+	border: none;
+}
+
+.quest_detail h3 {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.quest_detail h3 a {float: none;}
+
+.quest_detail p {margin: 0px;}
+
+li.accept, li.turnin {background: #660;}
+li.complete, li.kill {background: #633;}
+
+.alliance h4, .horde h4 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #66f;
+}
+
+.alliance h4 {color: #66f;}
+.horde h4 {color: #b00;}
+
+.alliance li, .horde li {list-style: none;}
+.alliance a:hover, .horde a:hover {color: #999;}

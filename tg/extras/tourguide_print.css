@@ -1,0 +1,50 @@
+
+.sidebar, .icon, .quest_detail a, h1 img {display: none;}
+
+a:link:after, a:visited:after {content: "";}
+
+.print_footer {font-size: 16px;}
+
+.quest_detail h3 {
+	display: inline;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.quest_detail h3 a {
+	display: inline;
+	color: black;
+	text-decoration: none;
+}
+
+.quest_detail p {margin: 5px 0px 0px 15px;}
+
+ul {
+	margin-left: 10px;
+	padding-left: 0px;
+}
+
+li {
+	list-style: none;
+	padding: 6px;
+	border-bottom: 1px solid #ccc;
+	page-break-inside: avoid;
+}
+
+.objectives li {display: inline-block;}
+.objectives li {display: block;}
+
+.accept h3:before      {content: "ACCEPT - ";}
+.complete h3:before    {content: "COMPLETE - ";}
+.turnin h3:before      {content: "TURNIN - ";}
+.fly h3:before         {content: "FLY - ";}
+.buy h3:before         {content: "BUY - ";}
+.run h3:before         {content: "RUN - ";}
+.note h3:before        {content: "NOTE - ";}
+.kill h3:before        {content: "KILL - ";}
+.sethearth h3:before   {content: "SET HEARTH - ";}
+.hearth h3:before      {content: "HEARTH - ";}
+.use h3:before         {content: "USE - ";}
+.flightpoint h3:before {content: "FP - ";}
+.boat h3:before        {content: "BOAT - ";}
+.pet h3:before         {content: "PET - ";}
