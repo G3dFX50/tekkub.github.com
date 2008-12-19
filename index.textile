@@ -243,7 +243,7 @@ You can also find all sorts of little unreleased mods in my "git repos":{{ page.
 
 p(. <i>*Important note:* addons pulled from git are *alpha quality* and are not supported, they could completely screw up your game... but I strive for that not to happen, of course.  USE AT YOUR OWN RISK!</i>
 
-h2. New! "TourGuide Online":{{ page.links.tourguide_online }}
+h2. "TourGuide Online":{{ page.links.tourguide_online }}
 
 All the guides included with the released version of TourGuide are now "viewable online":{{ page.links.tourguide_online }}.  Print them out!  Show your friends!  And of course, install the "addon":{{ page.links.tourguide }}!
 
