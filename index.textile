@@ -5,7 +5,7 @@ subtitle: World of Warcraft addons and various ramblings of a furry bastard
 
 links:
   tourguide: http://www.wowinterface.com/downloads/fileinfo.php?id=7674
-  tourguide_online: http://tekkub.net/tg
+  tourguide_online: /tg
   wowi: http://www.wowinterface.com/downloads/index.php?cid=37
   github: http://github.com/tekkub
 
