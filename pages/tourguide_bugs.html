@@ -1,0 +1,67 @@
+<p style="font-size: 120%; font-weight: bold;">
+	All bugs should be submitted to
+	<a href="http://code.google.com/p/tekkub-wow/issues/list?can=2&amp;q=addon:TourGuide&amp;colspec=ID%20Type%20Status%20Addon%20Milestone%20Summary">Google Code</a>.
+	Please look over the list first to make sure your issue isn't listed.
+</p>
+
+<p>
+	<i><b>Please make sure you are set to receive email updates to tickets you open on GCode.</b></i>
+	If I post something that needs feedback from you, and you never reply, I will close the ticket out without a second thought!
+	You can turn on notifications on the <a href="http://code.google.com/hosting/settings">settings page</a>.
+</p>
+
+<h2> Important info you should include </h2>
+<ul>
+	<li> The version you are running </li>
+	<li> The version of related addons (Carto, TomTom) if the bug may relate to them </li>
+	<li> The guide (zone and level) you are using </li>
+	<li> The exact title of the objective (usually quest name) and the type (accept, complete, turnin, run...) </li>
+	<li> What you were doing when the bug occurred </li>
+</ul>
+
+<h2> Known conflicts </h2>
+<div class="wrapper">
+	<p>
+		There are a number of &quot;Quest Level&quot; addons that append the quest's
+		recommended level to the front of the text in the quest log and other
+		places. A good number of these addons do this by hooking
+		GetQuestLogTitle and modifying it's return values. <i><b>This is a very bad practice</b></i>.
+		The addons listed below do this, they will break TG's auto-detection,
+		and I do not intend to compensate for their bad code in TourGuide. If
+		you want quest levels that don't interfere I've written <a href="http://www.wowinterface.com/downloads/fileinfo.php?id=8631">Quel'evel</a> as an alternative.
+	</p>
+	<ul>
+		<li> QuestLevel by Elkano (and the many &quot;revived&quot; versions floating around) </li>
+		<li> QuestLongList by Zevzabich </li>
+		<li> QuestIOn <i>Can be disabled by turning off the quest level feature</i> </li>
+		<li> Extended Quest Log 3 </li>
+	</ul>
+</div>
+
+<h2> Submitting patches </h2>
+<div class="wrapper">
+	<p>
+		I have had many problems with submitted patches, they never seem to be in the correct format.
+		While I will not reject patches submitted to Google Code, I much prefer you fork my github repo and push changes directly.  See below for details.
+	</p>
+</div>
+
+<h2> Hot forking action! </h2>
+<div class="wrapper">
+	<p>
+		If you know how to use git, then I really shouldn't need to tell you how to get commits to me.
+		Simply fork <a href="http://github.com/tekkub/tourguide">my repo on github</a> and push to your new fork.
+		You don't even have to contact me, I'll just pull the changes in as I see them come in!
+	</p>
+	<p>
+		If you don't know how to use <a href="http://git.or.cz/">git</a>, here are a few great guides to get you started:
+		<ul>
+			<li> <a href="http://github.com/guides/using-git-and-github-for-the-windows-for-newbies"> Using Git and Github on Windows </a> </li>
+			<li> <a href="http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx"> Using Git and Github on OSX </a> (damn hippies) </li>
+			<li> <a href="http://railsontherun.com/2008/3/3/how-to-use-github-and-submit-a-patch"> How to fork a project to submit a patch </a> </li>
+		</ul>
+	</p>
+	<p>
+		<i><b>Please read <a href="/pages/tourguide_editing">How to create TourGuide data files</a> before you submit files!</b></i>
+	</p>
+</div>
