@@ -237,7 +237,7 @@ h3. Quick links
 
 Welcome to my crappy website.  I'm lazy, so you may not see many improvements to this base page.  Anywho, the good shit's below.
 
-For lots more goodies that I haven't got on this site yet, visit "My WoWInterface section":{{ page.links.wowi }}.
+For lots more goodies that I haven't put on this site yet, visit "My WoWInterface section":{{ page.links.wowi }}.
 
 You can also find all sorts of little unreleased mods in my "git repos":{{ page.links.github }}.
 
