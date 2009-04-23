@@ -101,6 +101,7 @@ h2 a {color: #B4D0DD;}
 /**************************/
 
 .right-text {text-align: right;}
+.padded_links a {margin-left: 0.75em;}
 
 
 /*******************/
