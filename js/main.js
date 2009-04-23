@@ -1,7 +1,8 @@
 $(function() {
   $("#addon_list").each(function() {
     $.getJSON("http://github.com/api/v2/json/repos/show/tekkub?callback=?", function(data) {
-      $("#addon_list").empty();
+      $("#addon_list").empty()
+
       data.repositories.sort(function(a,b) {
         var keya = a.name
         var keyb = b.name
@@ -9,6 +10,7 @@ $(function() {
         if (keya > keyb) return 1
         return 0
       })
+
       $.each(data.repositories, function(i,item) {
         if (item.description.substring(0,12).toLowerCase() == "wow addon - " && !item.description.match("fork")) {
           var row = $("<tr>").attr("id", "addon-"+item.name)
@@ -19,16 +21,12 @@ $(function() {
           last_cell.append($("<a>").text("Bugs").attr("href", item.url+"/issues"))
           last_cell.append($("<a>").text("Repo").attr("href", item.url))
           $("#addon_list").append(row)
-        }
-      })
-      $.each(data.repositories, function(i,item) {
-        if (item.description.substring(0,12).toLowerCase() == "wow addon - " && !item.description.match("fork")) {
-          $.get("http://github.com/tekkub/"+item.name+".git/", function(data) {
+
+          $.get("http://github.com/tekkub/"+item.name+".git/", function(data2) {
             var regexp = new RegExp("href=\"(.+?).toc")
-            var matches = regexp.exec(data)
+            var matches = regexp.exec(data2)
             var fullname = matches[1]
             $("#addon-"+item.name+" .addon_name").text(fullname.replace("_", " "))
-            // $("tr#"+item.name+" td#addon_name").text("HAI!")
           }, "html")
         }
       })
