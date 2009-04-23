@@ -39,5 +39,5 @@ The web-based guides will be updated whenever a new version of the addon is rele
 h2. Addons
 
 <table id="addon_list">
-  <tr><td> Loading... </tr></td>
+  <tr><td> Loading... </td></tr>
 </table>
