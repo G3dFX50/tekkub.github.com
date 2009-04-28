@@ -10,9 +10,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="/images/paw.ico" />
 
     <link rel="stylesheet" href="/css/main.css" type="text/css" />
+
+    <script type="text/javascript"> function delayer() {window.location = "http://tekkub.net"} </script>
   </head>
 
-  <body>
+  <body onLoad="setTimeout('delayer()', 5000)">
 		<div id="container" style="position:relative;">
 			<a href="http://github.com/tekkub"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" /></a>
       <div id="header">
@@ -22,6 +24,7 @@
 
       <div id="main-content">
         <p>Looks like the page you&#8217;re after doesn&#8217;t exist.  Guess you&#8217;re going to have to go <a href="/">home</a> and try again!</p>
+        <p>You will be redirected momentarily...</p>
       </div>
 
       <div id="footer"><p>&nbsp;</p></div>
