@@ -17,18 +17,25 @@ $(function() {
           $("<td>").addClass("addon_name").text(item.name).appendTo(row)
           $("<td>").addClass("addon_desc").text(item.description.substring(12)).appendTo(row)
           var last_cell = $("<td>").addClass("addon_links").addClass("right-text").addClass("padded_links").appendTo(row)
-          if (item.pledgie) {last_cell.append($("<a>").text("Donate").attr("href", "http://pledgie.org/campaigns/"+item.pledgie))}
-          last_cell.append($("<a>").text("Bugs").attr("href", item.url+"/issues"))
+          if (item.pledgie) {last_cell.append($("<a>").text("Donate").attr("href", "http://pledgie.org/campaigns/" + item.pledgie))}
+          last_cell.append($("<a>").attr("id", "bugs").text("Bugs").attr("href", item.url + "/issues"))
           last_cell.append($("<a>").text("Repo").attr("href", item.url))
           $("#addon_list").append(row)
 
-          $.get("http://github.com/tekkub/"+item.name+".git/", function(data2) {
-            var regexp = new RegExp("href=\"(.+?).toc")
-            var matches = regexp.exec(data2)
-            var fullname = matches[1]
-            $("#addon-"+item.name+" .addon_name").text(fullname.replace("_", " "))
-          }, "html")
+          row.delay(1000*i, function() {
+            $.getJSON("http://github.com/api/v2/json/issues/list/tekkub/" + item.name + "/open?callback=?", function(data) {
+              if (data.issues.length > 0) {
+                $("tr#addon-"+item.name+" a#bugs").addClass("has_issues").append($("<span>").text(" [" + data.issues.length + "]"))
+              }
+            })
+          })
         }
+      })
+
+      $.each(wowi_links, function(i,v) {
+        $("tr#addon-" + i + " td.addon_name").html(
+          $("<a>").attr("href", v).text(wowi_names[i] || i)
+        )
       })
     })
   })

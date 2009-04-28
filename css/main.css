@@ -210,6 +210,9 @@ a:hover {background-color: #506666;}
 
 #addon_list td a.title:hover{background: black;}
 
+#addon_list a.has_issues {color: #ff9900;}
+#addon_list a.has_issues span {display: none;}
+#addon_list tr:hover a.has_issues span {display: inline;}
 
 /********************/
 /*      Footer      */
