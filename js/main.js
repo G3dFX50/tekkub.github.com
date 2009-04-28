@@ -4,8 +4,8 @@ $(function() {
       $("#addon_list").empty()
 
       data.repositories.sort(function(a,b) {
-        var keya = a.name
-        var keyb = b.name
+        var keya = a.name.toLowerCase()
+        var keyb = b.name.toLowerCase()
         if (keya < keyb) return -1
         if (keya > keyb) return 1
         return 0
