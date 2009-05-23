@@ -94,7 +94,10 @@ td p {
 	margin-top: 0;
 }
 h2 a {color: #B4D0DD;}
-
+h3 img {
+  float: right;
+  margin-top: 0.25em;
+}
 
 /**************************/
 /*      Misc classes      */
