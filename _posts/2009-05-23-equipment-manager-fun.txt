@@ -2,11 +2,12 @@
 layout: default
 title: Tekkub's Emporium of Random Crap
 subtitle: Equipment Manager Fun
+thumbnail: http://farm4.static.flickr.com/3334/3556511931_027bcbb7e8_t.jpg
+thumbnail_alt: EquipSetUpdater
 cd: http://www.wowinterface.com/downloads/info13577-Crossdresser.html
 esu: http://www.wowinterface.com/downloads/info13578-EquipSetUpdater.html
 ---
 
-!(thumb)http://farm4.static.flickr.com/3334/3556511931_027bcbb7e8_t.jpg(EquipSetUpdater)!
 As I'm sure you're aware, patch 3.1.2 finally brought us the equipment manager.  I love it in all it's simplicity, but I've found that it's lacking in two little areas... it doesn't link to the dual-spec system, and it's only about 4 friggin clicks to update an existing set.  As I am unable to overlook design flaws like this, I've written "Crossdresser":{{ cd }} and "EquipSetUpdater":{{ esu }}.
 
 <div class="showmore">

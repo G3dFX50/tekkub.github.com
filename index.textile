@@ -41,6 +41,13 @@ p(. <i>*Important note:* addons pulled from git are *alpha quality* and are not 
 h2. {{ first_post.subtitle }}
 
 <div class="top_post">
+  {% if first_post.thumbnail %}
+    <img src="{{ first_post.thumbnail }}" class="thumb"
+    {% if first_post.thumbnail_alt %}
+      alt="{{ first_post.thumbnail_alt }}" title="{{ first_post.thumbnail_alt }}"
+    {% endif %}
+    />
+  {% endif %}
   {{ first_post.content }}
 </div>
 
