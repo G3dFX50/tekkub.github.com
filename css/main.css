@@ -192,6 +192,7 @@ a:hover {background-color: #506666;}
 /*      Posts      */
 /*******************/
 
+.top_post {max-width: 900px;}
 .top_post .showmore {display: none;}
 .showmorelink {
   margin-left: 0.5em;
