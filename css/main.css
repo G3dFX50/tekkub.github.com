@@ -124,6 +124,7 @@ a:hover {background-color: #506666;}
 
 #container {
 	width:90%;
+	max-width: 1100px;
 	background: url(images/container-bg.gif) repeat-x;
 	margin: auto;
 	margin-top: 1em;
