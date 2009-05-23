@@ -23,7 +23,7 @@ h3. Quick links
 </div>
 
 <div class="sidebar">
-h3. Posts !/images/rss.png(Subscribe)!
+h3. Posts !/images/rss.png(Subscribe)!:/atom.xml
 
 {% for post in site.posts %}
 * "{{ post.subtitle }}":{{ post.url }}
