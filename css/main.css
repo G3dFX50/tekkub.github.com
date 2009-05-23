@@ -58,7 +58,6 @@ h2 {
 	background: url(images/h2.gif) no-repeat left bottom;
 }
 h3 {
-  clear: both;
 	font-size: 1.2em;
 	padding: 4px 10px;
 	margin-top: 0.5em;
@@ -104,6 +103,7 @@ h2 a {color: #B4D0DD;}
 .right-text {text-align: right;}
 .padded_links a {margin-left: 0.75em;}
 .float_right {float: right;}
+.clear_all {clear: both;}
 
 
 /*******************/
