@@ -33,9 +33,12 @@ You can also find all sorts of little unreleased mods in my "git repos":{{ page.
 
 p(. <i>*Important note:* addons pulled from git are *alpha quality* and are not supported, they could completely screw up your game... but I strive for that not to happen, of course.  USE AT YOUR OWN RISK!</i>
 
-h2. "{{ first_post.title }}":{{ first_post.url }}
+h2. {{ first_post.subtitle }}
 
 {{ first_post.content }}
+{% if first_post.is_long %}
+  "more >>":{{ first_post.url }}
+{% endif %}
 
 h2. Addons
 
