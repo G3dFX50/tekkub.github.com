@@ -1,0 +1,11 @@
+---
+layout: default
+title: Tekkub's Emporium of Random Crap
+subtitle: TourGuide Online
+
+tourguide_online: /tg
+---
+
+All the guides included with the released version of TourGuide are now "viewable online":/tg.  Print them out!  Show your friends!  And of course, install the "addon":http://www.wowinterface.com/downloads/fileinfo.php?id=7674!
+
+The web-based guides will be updated whenever a new version of the addon is released.

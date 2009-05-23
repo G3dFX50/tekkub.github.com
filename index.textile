@@ -9,6 +9,7 @@ links:
   wowi: http://www.wowinterface.com/downloads/index.php?cid=37
   github: http://github.com/tekkub
 ---
+{% assign first_post = site.posts.first %}
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type="text/javascript" src="/js/delay.js"></script>
@@ -32,11 +33,9 @@ You can also find all sorts of little unreleased mods in my "git repos":{{ page.
 
 p(. <i>*Important note:* addons pulled from git are *alpha quality* and are not supported, they could completely screw up your game... but I strive for that not to happen, of course.  USE AT YOUR OWN RISK!</i>
 
-h2. "TourGuide Online":{{ page.links.tourguide_online }}
+h2. "{{ first_post.title }}":{{ first_post.url }}
 
-All the guides included with the released version of TourGuide are now "viewable online":{{ page.links.tourguide_online }}.  Print them out!  Show your friends!  And of course, install the "addon":{{ page.links.tourguide }}!
-
-The web-based guides will be updated whenever a new version of the addon is released.
+{{ first_post.content }}
 
 h2. Addons
 
