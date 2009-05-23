@@ -5,7 +5,6 @@ subtitle: World of Warcraft addons and various ramblings of a furry bastard
 
 links:
   tourguide: http://www.wowinterface.com/downloads/fileinfo.php?id=7674
-  tourguide_online: /tg
   wowi: http://www.wowinterface.com/downloads/index.php?cid=37
   github: http://github.com/tekkub
 ---
@@ -41,10 +40,9 @@ p(. <i>*Important note:* addons pulled from git are *alpha quality* and are not 
 
 h2. {{ first_post.subtitle }}
 
-{{ first_post.content }}
-{% if first_post.is_long %}
-  "more >>":{{ first_post.url }}
-{% endif %}
+<div class="top_post">
+  {{ first_post.content }}
+</div>
 
 h2. Addons
 

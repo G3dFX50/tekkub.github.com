@@ -186,6 +186,13 @@ a:hover {background-color: #506666;}
 .sidebar ul li {padding-right: 1em;}
 
 
+/*******************/
+/*      Posts      */
+/*******************/
+
+.top_post .showmore {display: none;}
+
+
 /*************************/
 /*      Addon Table      */
 /*************************/
