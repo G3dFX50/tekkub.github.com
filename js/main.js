@@ -1,5 +1,5 @@
 $(function() {
-  $("#addon_list").each(function() {
+  $("#addon_list").eq(0).each(function() {
     $.getJSON("http://github.com/api/v2/json/repos/show/tekkub?callback=?", function(data) {
       $("#addon_list").empty()
 
