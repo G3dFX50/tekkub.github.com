@@ -1,5 +1,5 @@
 $(function() {
-  $("#addon_list").eq(0).each(function() {
+  $("#addon_list").each(function() {
     $.getJSON("http://github.com/api/v2/json/repos/show/tekkub?callback=?", function(data) {
       $("#addon_list").empty()
 
@@ -25,7 +25,7 @@ $(function() {
           row.delay(1000*i, function() {
             $.getJSON("http://github.com/api/v2/json/issues/list/tekkub/" + item.name + "/open?callback=?", function(data) {
               if (data.issues.length > 0) {
-                $("tr#addon-"+item.name+" a#bugs").addClass("has_issues").append($("<span>").text(" [" + data.issues.length + "]"))
+                $("tr#addon-"+item.name+" a#bugs").addClass("has_issues")
               }
             })
           })
