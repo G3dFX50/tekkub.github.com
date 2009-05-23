@@ -40,8 +40,7 @@ $(function() {
     })
   })
 
-	$(".top_post .showmore").each(function() {
-		$(this).before(
+	$(".top_post .showmore").before(
 			$("<span>").addClass("showmorelink").text("more >>").click(function() {
 				$(".showmorelink").remove()
 				$(".top_post .showmore").show()

@@ -191,6 +191,11 @@ a:hover {background-color: #506666;}
 /*******************/
 
 .top_post .showmore {display: none;}
+.showmorelink {
+  margin-left: 0.5em;
+  border-bottom: 1px rgb(170, 187, 187) dotted;
+  cursor: pointer;
+}
 .top_post .thumb {float: right;}
 
 
