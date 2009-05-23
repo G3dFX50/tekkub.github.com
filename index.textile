@@ -27,7 +27,7 @@ h3. Quick links
 h3. Posts
 
 {% for post in site.posts %}
-  * "{{ post.subtitle }}":{{ post.url }}
+* "{{ post.subtitle }}":{{ post.url }}
 {% endfor %}
 </div>
 
