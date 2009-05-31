@@ -10,10 +10,9 @@ After far too long of a wait, I've finally compiled Northrend TourGuide files fo
 
 <div class="showmore">
 
-!{float:right}http://farm4.static.flickr.com/3653/3582633349_f20ebca790_o.png(EquipSetUpdater)!
 A big huge thanks is due to "Spugnort's guides":spug.  After the "development policy":pol was laid down by Blizzard, their TourGuide files could no longer be given to paying customers only.  Instead of removing their in-game guides, or simply ignoring the policy like some other guide authors (I won't name names...), they instead donated their guides for the betterment of TourGuide for everyone.
 
-I've gone through each guide, merging in ally guide data for the neutral quests and the quests that are similar for both factions.  "TourGuide Recorder":tgr data from users (thanks guys!) has also been merged in, so you should get some nice coords even if you don't run "LightHeaded":lh.
+!{float:right}http://farm4.static.flickr.com/3653/3582633349_f20ebca790_o.png(EquipSetUpdater)! I've gone through each guide, merging in ally guide data for the neutral quests and the quests that are similar for both factions.  "TourGuide Recorder":tgr data from users (thanks guys!) has also been merged in, so you should get some nice coords even if you don't run "LightHeaded":lh.
 
 Again, big thanks to everyone that made this possible.  Even though I'm usually not one for paid guides (hell, I wrote TourGuide to undermine the ones that I thought were poor quality, especially for a paid product...), I encourage you guys to hit up "Spugnort's":spug and show them some support for donating their guide data for everyone to use.
 
