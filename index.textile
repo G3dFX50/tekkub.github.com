@@ -15,19 +15,23 @@ links:
 <script type="text/javascript" src="/js/wowi.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
 <div class="sidebar">
+
 h3. Quick links
 
 * "WoW Interface [Releases]":{{ page.links.wowi }}
 * "Github repos [Alphas]":{{ page.links.github }}
 * "TourGuide":{{ page.links.tourguide }}
+
 </div>
 
 <div class="sidebar">
+
 h3. Posts !/images/rss.png(Subscribe)!:http://feeds2.feedburner.com/tekkub
 
 {% for post in site.posts %}
 * "{{ post.subtitle }}":{{ post.url }}
 {% endfor %}
+
 </div>
 
 Welcome to my crappy website.  I'm lazy, so you may not see many improvements to this base page.  Anywho, the good shit's below.
