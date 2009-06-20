@@ -8,7 +8,7 @@ thumbnail_alt: Kennel zone pets
 
 This week "NoStockUI":nsui published a "little interview":int with me.  I know I got a little ranty, especially about Wowmatrix, but you're welcome to skip over those parts.  Thanks to Matticus for the change to ramble a bit, I'm happy to support a nice UI-centric blog.
 
-Oh and it's the weekend that means new add builds...
+Oh and it's the weekend that means new addon builds...
 
 <div class="showmore">
 
