@@ -18,17 +18,16 @@ $(function() {
           $("<td>").addClass("addon_desc").text(item.description.substring(12)).appendTo(row)
           var last_cell = $("<td>").addClass("addon_links").addClass("right-text").addClass("padded_links").appendTo(row)
           if (item.pledgie) {last_cell.append($("<a>").text("Donate").attr("href", "http://pledgie.org/campaigns/" + item.pledgie))}
-          last_cell.append($("<a>").attr("id", "bugs").text("Bugs").attr("href", item.url + "/issues"))
+
+          var buglink = $("<a>").attr("id", "bugs").text("Bugs (0)").attr("href", item.url + "/issues")
+          if (item.open_issues > 0) {
+            buglink.addClass("has_issues").text("Bugs (" + item.open_issues + ")")
+          }
+          last_cell.append(buglink)
+
           last_cell.append($("<a>").text("Repo").attr("href", item.url))
           $("#addon_list").append(row)
 
-          row.delay(1000*i, function() {
-            $.getJSON("http://github.com/api/v2/json/issues/list/tekkub/" + item.name + "/open?callback=?", function(data) {
-              if (data.issues.length > 0) {
-                $("tr#addon-"+item.name+" a#bugs").addClass("has_issues")
-              }
-            })
-          })
         }
       })
 
