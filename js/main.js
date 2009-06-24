@@ -1,5 +1,11 @@
 $(function() {
   $("#addon_list").each(function() {
+    $("#addon_list").append(
+      $("<tr>").append(
+        $("<td>").text("Loading...")
+      )
+    )
+
     $.getJSON("http://github.com/api/v2/json/repos/show/tekkub?callback=?", function(data) {
       $("#addon_list").empty()
 

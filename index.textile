@@ -52,6 +52,10 @@ h2. {{ first_post.subtitle }}
 
 h2(clear_all). Addons
 
-<table id="addon_list">
-  <tr><td> Loading... </td></tr>
-</table>
+<noscript>
+
+p((. <b>It looks like you have javascript blocked.  I'm afraid my site requires it for the addon list to work.  If you don't trust my code... why the hell are you using my addons?  You're more than welcome to check out "my code":http://github.com/tekkub/tekkub.github.com/blob/master/js/main.js, it's just a bit of jQuery to ensure the addon list is always updated... I forget to regenerate the site every time I add a new addon.</b>
+
+</noscript>
+
+<table id="addon_list"></table>
