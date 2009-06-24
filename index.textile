@@ -54,7 +54,7 @@ h2(clear_all). Addons
 
 <noscript>
 
-p((. It looks like you have javascript blocked.  I'm afraid my site requires it for the addon list to work.  If you don't trust my code... why the hell are you using my addons?  You're more than welcome to check out "my code":http://github.com/tekkub/tekkub.github.com/blob/master/js/main.js, it's just a bit of jQuery to ensure the addon list is always updated... I forget to regenerate the site every time I add a new addon.
+It looks like you have javascript blocked.  I'm afraid my site requires it for the addon list to work.  If you don't trust my code... why the hell are you using my addons?  You're more than welcome to check out "my code":http://github.com/tekkub/tekkub.github.com/blob/master/js/main.js, it's just a bit of jQuery to ensure the addon list is always updated... I forget to regenerate the site every time I add a new addon.
 
 </noscript>
 
