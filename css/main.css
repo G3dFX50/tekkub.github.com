@@ -233,7 +233,7 @@ a:hover {background-color: #506666;}
 
 #addon_list td a.title:hover{background: black;}
 
-#addon_list a.has_issues {color: #ff9900;}
+.has_issues, noscript p {color: #ff9900;}
 
 /********************/
 /*      Footer      */
