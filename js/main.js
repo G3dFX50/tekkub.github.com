@@ -14,9 +14,9 @@ $(function() {
       $.each(data.repositories, function(i,item) {
         if (item.description.substring(0,12).toLowerCase() == "wow addon - " && !item.description.match("fork")) {
           var row = $("<tr>").attr("id", "addon-"+item.name)
-          $("<td>").addClass("addon_name").text(item.name).appendTo(row)
+          $("<td>").addClass("addon_name").addClass("no_wrap").text(item.name).appendTo(row)
           $("<td>").addClass("addon_desc").text(item.description.substring(12)).appendTo(row)
-          var last_cell = $("<td>").addClass("addon_links").addClass("right-text").addClass("padded_links").appendTo(row)
+          var last_cell = $("<td>").addClass("addon_links").addClass("no_wrap").addClass("right-text").addClass("padded_links").appendTo(row)
           if (item.pledgie) {last_cell.append($("<a>").text("Donate").attr("href", "http://pledgie.org/campaigns/" + item.pledgie))}
 
           var buglink = $("<a>").attr("id", "bugs").text("Bugs (0)").attr("href", item.url + "/issues")
