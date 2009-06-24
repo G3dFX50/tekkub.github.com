@@ -1,5 +1,6 @@
 $(function() {
   $("#addon_list").each(function() {
+    $("#addon_list").empty()
     $("#addon_list").append(
       $("<tr>").append(
         $("<td>").text("Loading...")
