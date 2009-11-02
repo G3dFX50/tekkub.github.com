@@ -41,3 +41,4 @@ p((. "Quel'evel":http://www.wowinterface.com/downloads/fileinfo.php?id=8631 was 
 </div>
 
 [gvs]http://www.wowinterface.com/downloads/info14425-GnomishVendorShrinker.html
+[gne]http://www.wowinterface.com/downloads/info14426-GoodNewsEveryone.html
