@@ -3,7 +3,7 @@ layout: default
 title: Tekkub's Emporium of Random Crap
 subtitle: The TourGuide-Zygor deal
 thumbnail: http://img.skitch.com/20100217-c9wmgre3w6s5hrg3jbdk1sm5w7.jpg
-thumbnail_alt: Good News Everyone!
+thumbnail_alt: Zygor Guides
 ---
 
 TourGuide has teamed up with "Zygor guides":http://www.zygorguides.com/.  Don't panic!  (Fine, you can panic, just a little)
@@ -25,3 +25,5 @@ Up to this point, the only money I had made were a few hundred dollars in donati
 This is when Zygor approached me about buying TourGuide.  My initial reaction was "hell no, never"... but with a little urging from my bitchier half I remembered that my initial goal with TG was to create something I could license.  So I contacted Zygor back and we struck a deal.  That deal is thus: I have licensed all rights relating to TourGuide, as is, to Zygor.  They are free to distribute it however they wish, at their request I have taken down my free versions.  If the deal ends in the future, rights will return to me and I can do what I want with the addon.
 
 It's been a great ride so far, and it's not over yet.  Thanks to all my users out there!
+
+</div>
